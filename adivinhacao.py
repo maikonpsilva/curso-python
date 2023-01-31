@@ -2,9 +2,9 @@ import random
 
 def jogar():
 
-    print("**********************************")
-    print("Bem vindo ao jogo de adivinhação!!")
-    print("**********************************")
+    print("***********************************")
+    print("Bem vindo ao jogo de adivinhação!!!")
+    print("***********************************")
 
     #numero_secreto = round(random.random() * 100) Inutilizado pois dessa forma é necessário arredondar o resultado.
     numero_secreto = random.randrange(1,101)
